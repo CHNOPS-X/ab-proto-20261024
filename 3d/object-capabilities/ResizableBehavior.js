@@ -1,0 +1,2 @@
+var gdjs;(function(t){class o extends t.RuntimeBehavior{constructor(e,i,a){super(e,i,a);this.object=a}usesLifecycleFunction(){return!1}applyBehaviorOverriding(e){return!0}onDeActivate(){}onDestroy(){}doStepPreEvents(e){}doStepPostEvents(e){}setWidth(e){this.object.setWidth(e)}setHeight(e){this.object.setHeight(e)}setSize(e,i){this.object.setSize(e,i)}getWidth(){return this.object.getWidth()}getHeight(){return this.object.getHeight()}}t.ResizableBehavior=o,t.registerBehavior("ResizableCapability::ResizableBehavior",t.ResizableBehavior)})(gdjs||(gdjs={}));
+

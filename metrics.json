@@ -1,0 +1,887 @@
+{
+  "measuredAt": "2026-10-23T14:06:49.318Z",
+  "round": 5,
+  "gdevelopVersion": "v5.6.285",
+  "licensePreservedInAllBuilds": true,
+  "pokiConsoleInvestigation": {
+    "distStaticCookieOrSharedIdReferences": 0,
+    "gdSharedIdCookieSource": "외부 Poki CDN 스크립트(https://game-cdn.poki.com/scripts/v2/poki-sdk.js) 내부 동작 (T3_린터 R3 sdk-tag 필수 태그; 로컬 빌드 번들 내 cookie/sharedId 코드 0건)",
+    "pokiSdkBootOrderFix": "PokiBridge.init() Promise 완료(booted=true) 전 gameplayStart() 호출을 pendingGameplayStart 큐로 보류하여 'The Poki SDK was not yet booted' 경고 제거"
+  },
+  "totalScriptElapsedMs": 7126,
+  "builds": {
+    "emptyBaseline": {
+      "buildMs": 756,
+      "rawExportBeforeClean": {
+        "totalBytes": 901977,
+        "totalGzipBytes": 269797,
+        "totalBrotliBytes": 229275,
+        "fileCount": 69,
+        "buildDigest": "90700d88e7e9a0af39a38bade2b30de0aba72ed7d4db5ca259a8a57448f6a657",
+        "licensePreserved": true,
+        "topFiles": [
+          {
+            "rel": "pixi-renderers/pixi.js",
+            "raw": 489502,
+            "gzip": 146087,
+            "brotli": 119208
+          },
+          {
+            "rel": "howler-sound-manager/howler.min.js",
+            "raw": 27064,
+            "gzip": 8030,
+            "brotli": 7157
+          },
+          {
+            "rel": "runtimeobject.js",
+            "raw": 25859,
+            "gzip": 6491,
+            "brotli": 5823
+          },
+          {
+            "rel": "pixi-renderers/layer-pixi-renderer.js",
+            "raw": 20726,
+            "gzip": 5709,
+            "brotli": 5161
+          },
+          {
+            "rel": "runtimegame.js",
+            "raw": 19776,
+            "gzip": 5346,
+            "brotli": 4752
+          },
+          {
+            "rel": "libs/rbush.js",
+            "raw": 18923,
+            "gzip": 5030,
+            "brotli": 4408
+          },
+          {
+            "rel": "ResourceLoader.js",
+            "raw": 15710,
+            "gzip": 3930,
+            "brotli": 3548
+          },
+          {
+            "rel": "pixi-renderers/runtimegame-pixi-renderer.js",
+            "raw": 13482,
+            "gzip": 4002,
+            "brotli": 3506
+          },
+          {
+            "rel": "howler-sound-manager/howler-sound-manager.js",
+            "raw": 12601,
+            "gzip": 3521,
+            "brotli": 3153
+          },
+          {
+            "rel": "CustomRuntimeObject.js",
+            "raw": 12563,
+            "gzip": 2956,
+            "brotli": 2619
+          }
+        ]
+      },
+      "cleanedExport": {
+        "totalBytes": 893353,
+        "totalGzipBytes": 263589,
+        "totalBrotliBytes": 223091,
+        "fileCount": 68,
+        "buildDigest": "4119c6e84a7c7b1952b0d0397781428b07b744618970b60cbe90570f6f447f3d",
+        "licensePreserved": true,
+        "topFiles": [
+          {
+            "rel": "pixi-renderers/pixi.js",
+            "raw": 489393,
+            "gzip": 145993,
+            "brotli": 119061
+          },
+          {
+            "rel": "howler-sound-manager/howler.min.js",
+            "raw": 27015,
+            "gzip": 8000,
+            "brotli": 7132
+          },
+          {
+            "rel": "runtimeobject.js",
+            "raw": 25818,
+            "gzip": 6463,
+            "brotli": 5799
+          },
+          {
+            "rel": "pixi-renderers/layer-pixi-renderer.js",
+            "raw": 20679,
+            "gzip": 5681,
+            "brotli": 5130
+          },
+          {
+            "rel": "runtimegame.js",
+            "raw": 19699,
+            "gzip": 5299,
+            "brotli": 4717
+          },
+          {
+            "rel": "libs/rbush.js",
+            "raw": 18923,
+            "gzip": 5030,
+            "brotli": 4408
+          },
+          {
+            "rel": "ResourceLoader.js",
+            "raw": 15668,
+            "gzip": 3911,
+            "brotli": 3528
+          },
+          {
+            "rel": "pixi-renderers/runtimegame-pixi-renderer.js",
+            "raw": 13412,
+            "gzip": 3962,
+            "brotli": 3465
+          },
+          {
+            "rel": "howler-sound-manager/howler-sound-manager.js",
+            "raw": 12553,
+            "gzip": 3490,
+            "brotli": 3122
+          },
+          {
+            "rel": "CustomRuntimeObject.js",
+            "raw": 12516,
+            "gzip": 2929,
+            "brotli": 2590
+          }
+        ]
+      }
+    },
+    "planA_2D": {
+      "buildMs": 822,
+      "deltaOverEmptyBytes": 113082,
+      "deltaOverEmptyGzipBytes": 31614,
+      "deltaOverEmptyBrotliBytes": 27618,
+      "rawExportBeforeClean": {
+        "totalBytes": 1015640,
+        "totalGzipBytes": 301754,
+        "totalBrotliBytes": 257186,
+        "fileCount": 80,
+        "buildDigest": "33fbd15c8d274dabc6fb867cfd2ef4e619899f95f589e11ee6bf193420d37605",
+        "licensePreserved": true,
+        "topFiles": [
+          {
+            "rel": "pixi-renderers/pixi.js",
+            "raw": 489502,
+            "gzip": 146087,
+            "brotli": 119208
+          },
+          {
+            "rel": "code0.js",
+            "raw": 72186,
+            "gzip": 20261,
+            "brotli": 17555
+          },
+          {
+            "rel": "howler-sound-manager/howler.min.js",
+            "raw": 27064,
+            "gzip": 8030,
+            "brotli": 7157
+          },
+          {
+            "rel": "runtimeobject.js",
+            "raw": 25859,
+            "gzip": 6491,
+            "brotli": 5823
+          },
+          {
+            "rel": "pixi-renderers/layer-pixi-renderer.js",
+            "raw": 20726,
+            "gzip": 5709,
+            "brotli": 5161
+          },
+          {
+            "rel": "runtimegame.js",
+            "raw": 19776,
+            "gzip": 5346,
+            "brotli": 4752
+          },
+          {
+            "rel": "libs/rbush.js",
+            "raw": 18923,
+            "gzip": 5030,
+            "brotli": 4408
+          },
+          {
+            "rel": "ResourceLoader.js",
+            "raw": 15710,
+            "gzip": 3930,
+            "brotli": 3548
+          },
+          {
+            "rel": "pixi-renderers/runtimegame-pixi-renderer.js",
+            "raw": 13482,
+            "gzip": 4002,
+            "brotli": 3506
+          },
+          {
+            "rel": "howler-sound-manager/howler-sound-manager.js",
+            "raw": 12601,
+            "gzip": 3521,
+            "brotli": 3153
+          }
+        ]
+      },
+      "cleanedExport": {
+        "totalBytes": 1006435,
+        "totalGzipBytes": 295203,
+        "totalBrotliBytes": 250709,
+        "fileCount": 79,
+        "buildDigest": "287b970b025fce4c3763895946f9301482b79e30ad729b9bf67e76ec86b5fb21",
+        "licensePreserved": true,
+        "topFiles": [
+          {
+            "rel": "pixi-renderers/pixi.js",
+            "raw": 489393,
+            "gzip": 145993,
+            "brotli": 119061
+          },
+          {
+            "rel": "code0.js",
+            "raw": 72186,
+            "gzip": 20261,
+            "brotli": 17555
+          },
+          {
+            "rel": "howler-sound-manager/howler.min.js",
+            "raw": 27015,
+            "gzip": 8000,
+            "brotli": 7132
+          },
+          {
+            "rel": "runtimeobject.js",
+            "raw": 25818,
+            "gzip": 6463,
+            "brotli": 5799
+          },
+          {
+            "rel": "pixi-renderers/layer-pixi-renderer.js",
+            "raw": 20679,
+            "gzip": 5681,
+            "brotli": 5130
+          },
+          {
+            "rel": "runtimegame.js",
+            "raw": 19699,
+            "gzip": 5299,
+            "brotli": 4717
+          },
+          {
+            "rel": "libs/rbush.js",
+            "raw": 18923,
+            "gzip": 5030,
+            "brotli": 4408
+          },
+          {
+            "rel": "ResourceLoader.js",
+            "raw": 15668,
+            "gzip": 3911,
+            "brotli": 3528
+          },
+          {
+            "rel": "pixi-renderers/runtimegame-pixi-renderer.js",
+            "raw": 13412,
+            "gzip": 3962,
+            "brotli": 3465
+          },
+          {
+            "rel": "howler-sound-manager/howler-sound-manager.js",
+            "raw": 12553,
+            "gzip": 3490,
+            "brotli": 3122
+          }
+        ]
+      }
+    },
+    "planB_3D": {
+      "buildMs": 1970,
+      "deltaOverEmptyBytes": 1498110,
+      "deltaOverEmptyGzipBytes": 455609,
+      "deltaOverEmptyBrotliBytes": 387528,
+      "deltaOver2DBytes": 1385028,
+      "deltaOver2DGzipBytes": 423995,
+      "deltaOver2DBrotliBytes": 359910,
+      "rawExportBeforeClean": {
+        "totalBytes": 2401041,
+        "totalGzipBytes": 725945,
+        "totalBrotliBytes": 617324,
+        "fileCount": 93,
+        "buildDigest": "0082ef57eac4a6e1505dd445e74f56bbeb0632028126a2a1ca029697c020ca12",
+        "licensePreserved": true,
+        "topFiles": [
+          {
+            "rel": "pixi-renderers/three.js",
+            "raw": 737325,
+            "gzip": 184503,
+            "brotli": 148559
+          },
+          {
+            "rel": "pixi-renderers/pixi.js",
+            "raw": 489502,
+            "gzip": 146087,
+            "brotli": 119208
+          },
+          {
+            "rel": "pixi-renderers/ThreeAddons.js",
+            "raw": 359032,
+            "gzip": 154897,
+            "brotli": 144356
+          },
+          {
+            "rel": "pixi-renderers/draco/gltf/draco_decoder.wasm",
+            "raw": 192420,
+            "gzip": 63395,
+            "brotli": 48729
+          },
+          {
+            "rel": "code0.js",
+            "raw": 72447,
+            "gzip": 20375,
+            "brotli": 17598
+          },
+          {
+            "rel": "pixi-renderers/draco/gltf/draco_wasm_wrapper.js",
+            "raw": 58456,
+            "gzip": 11667,
+            "brotli": 9994
+          },
+          {
+            "rel": "howler-sound-manager/howler.min.js",
+            "raw": 27064,
+            "gzip": 8030,
+            "brotli": 7157
+          },
+          {
+            "rel": "runtimeobject.js",
+            "raw": 25859,
+            "gzip": 6491,
+            "brotli": 5823
+          },
+          {
+            "rel": "pixi-renderers/layer-pixi-renderer.js",
+            "raw": 20726,
+            "gzip": 5709,
+            "brotli": 5161
+          },
+          {
+            "rel": "runtimegame.js",
+            "raw": 19776,
+            "gzip": 5346,
+            "brotli": 4752
+          }
+        ]
+      },
+      "cleanedExport": {
+        "totalBytes": 2391463,
+        "totalGzipBytes": 719198,
+        "totalBrotliBytes": 610619,
+        "fileCount": 92,
+        "buildDigest": "ebb8c0fc9038bb521868862b98fc3b53d34f8f2d5314df79590c1d76e543a773",
+        "licensePreserved": true,
+        "topFiles": [
+          {
+            "rel": "pixi-renderers/three.js",
+            "raw": 737344,
+            "gzip": 184514,
+            "brotli": 148540
+          },
+          {
+            "rel": "pixi-renderers/pixi.js",
+            "raw": 489393,
+            "gzip": 145993,
+            "brotli": 119061
+          },
+          {
+            "rel": "pixi-renderers/ThreeAddons.js",
+            "raw": 359032,
+            "gzip": 154897,
+            "brotli": 144356
+          },
+          {
+            "rel": "pixi-renderers/draco/gltf/draco_decoder.wasm",
+            "raw": 192420,
+            "gzip": 63395,
+            "brotli": 48729
+          },
+          {
+            "rel": "code0.js",
+            "raw": 72447,
+            "gzip": 20375,
+            "brotli": 17598
+          },
+          {
+            "rel": "pixi-renderers/draco/gltf/draco_wasm_wrapper.js",
+            "raw": 58456,
+            "gzip": 11667,
+            "brotli": 9994
+          },
+          {
+            "rel": "howler-sound-manager/howler.min.js",
+            "raw": 27015,
+            "gzip": 8000,
+            "brotli": 7132
+          },
+          {
+            "rel": "runtimeobject.js",
+            "raw": 25818,
+            "gzip": 6463,
+            "brotli": 5799
+          },
+          {
+            "rel": "pixi-renderers/layer-pixi-renderer.js",
+            "raw": 20679,
+            "gzip": 5681,
+            "brotli": 5130
+          },
+          {
+            "rel": "runtimegame.js",
+            "raw": 19699,
+            "gzip": 5299,
+            "brotli": 4717
+          }
+        ]
+      }
+    }
+  },
+  "history": {
+    "round2_preLicenseRestore": {
+      "measuredAt": "2026-10-23T12:50:08.591Z",
+      "gdevelopVersion": "v5.6.285",
+      "totalScriptElapsedMs": 7139,
+      "builds": {
+        "emptyBaseline": {
+          "buildMs": 763,
+          "rawExportBeforeClean": {
+            "totalBytes": 901977,
+            "totalGzipBytes": 269797,
+            "totalBrotliBytes": 229275,
+            "fileCount": 69,
+            "topFiles": [
+              {
+                "rel": "pixi-renderers/pixi.js",
+                "raw": 489502,
+                "gzip": 146087,
+                "brotli": 119208
+              },
+              {
+                "rel": "howler-sound-manager/howler.min.js",
+                "raw": 27064,
+                "gzip": 8030,
+                "brotli": 7157
+              },
+              {
+                "rel": "runtimeobject.js",
+                "raw": 25859,
+                "gzip": 6491,
+                "brotli": 5823
+              },
+              {
+                "rel": "pixi-renderers/layer-pixi-renderer.js",
+                "raw": 20726,
+                "gzip": 5709,
+                "brotli": 5161
+              },
+              {
+                "rel": "runtimegame.js",
+                "raw": 19776,
+                "gzip": 5346,
+                "brotli": 4752
+              },
+              {
+                "rel": "libs/rbush.js",
+                "raw": 18923,
+                "gzip": 5030,
+                "brotli": 4408
+              },
+              {
+                "rel": "ResourceLoader.js",
+                "raw": 15710,
+                "gzip": 3930,
+                "brotli": 3548
+              },
+              {
+                "rel": "pixi-renderers/runtimegame-pixi-renderer.js",
+                "raw": 13482,
+                "gzip": 4002,
+                "brotli": 3506
+              },
+              {
+                "rel": "howler-sound-manager/howler-sound-manager.js",
+                "raw": 12601,
+                "gzip": 3521,
+                "brotli": 3153
+              },
+              {
+                "rel": "CustomRuntimeObject.js",
+                "raw": 12563,
+                "gzip": 2956,
+                "brotli": 2619
+              }
+            ]
+          },
+          "cleanedExport": {
+            "totalBytes": 893214,
+            "totalGzipBytes": 263459,
+            "totalBrotliBytes": 223009,
+            "fileCount": 67,
+            "topFiles": [
+              {
+                "rel": "pixi-renderers/pixi.js",
+                "raw": 489393,
+                "gzip": 145993,
+                "brotli": 119061
+              },
+              {
+                "rel": "howler-sound-manager/howler.min.js",
+                "raw": 27015,
+                "gzip": 8000,
+                "brotli": 7132
+              },
+              {
+                "rel": "runtimeobject.js",
+                "raw": 25818,
+                "gzip": 6463,
+                "brotli": 5799
+              },
+              {
+                "rel": "pixi-renderers/layer-pixi-renderer.js",
+                "raw": 20679,
+                "gzip": 5681,
+                "brotli": 5130
+              },
+              {
+                "rel": "runtimegame.js",
+                "raw": 19699,
+                "gzip": 5299,
+                "brotli": 4717
+              },
+              {
+                "rel": "libs/rbush.js",
+                "raw": 18923,
+                "gzip": 5030,
+                "brotli": 4408
+              },
+              {
+                "rel": "ResourceLoader.js",
+                "raw": 15668,
+                "gzip": 3911,
+                "brotli": 3528
+              },
+              {
+                "rel": "pixi-renderers/runtimegame-pixi-renderer.js",
+                "raw": 13412,
+                "gzip": 3962,
+                "brotli": 3465
+              },
+              {
+                "rel": "howler-sound-manager/howler-sound-manager.js",
+                "raw": 12553,
+                "gzip": 3490,
+                "brotli": 3122
+              },
+              {
+                "rel": "CustomRuntimeObject.js",
+                "raw": 12516,
+                "gzip": 2929,
+                "brotli": 2590
+              }
+            ]
+          }
+        },
+        "planA_2D": {
+          "buildMs": 823,
+          "deltaOverEmptyBytes": 95763,
+          "deltaOverEmptyGzipBytes": 25839,
+          "deltaOverEmptyBrotliBytes": 22619,
+          "rawExportBeforeClean": {
+            "totalBytes": 998321,
+            "totalGzipBytes": 295979,
+            "totalBrotliBytes": 252187,
+            "fileCount": 80,
+            "topFiles": [
+              {
+                "rel": "pixi-renderers/pixi.js",
+                "raw": 489502,
+                "gzip": 146087,
+                "brotli": 119208
+              },
+              {
+                "rel": "code0.js",
+                "raw": 54867,
+                "gzip": 14484,
+                "brotli": 12554
+              },
+              {
+                "rel": "howler-sound-manager/howler.min.js",
+                "raw": 27064,
+                "gzip": 8030,
+                "brotli": 7157
+              },
+              {
+                "rel": "runtimeobject.js",
+                "raw": 25859,
+                "gzip": 6491,
+                "brotli": 5823
+              },
+              {
+                "rel": "pixi-renderers/layer-pixi-renderer.js",
+                "raw": 20726,
+                "gzip": 5709,
+                "brotli": 5161
+              },
+              {
+                "rel": "runtimegame.js",
+                "raw": 19776,
+                "gzip": 5346,
+                "brotli": 4752
+              },
+              {
+                "rel": "libs/rbush.js",
+                "raw": 18923,
+                "gzip": 5030,
+                "brotli": 4408
+              },
+              {
+                "rel": "ResourceLoader.js",
+                "raw": 15710,
+                "gzip": 3930,
+                "brotli": 3548
+              },
+              {
+                "rel": "pixi-renderers/runtimegame-pixi-renderer.js",
+                "raw": 13482,
+                "gzip": 4002,
+                "brotli": 3506
+              },
+              {
+                "rel": "howler-sound-manager/howler-sound-manager.js",
+                "raw": 12601,
+                "gzip": 3521,
+                "brotli": 3153
+              }
+            ]
+          },
+          "cleanedExport": {
+            "totalBytes": 988977,
+            "totalGzipBytes": 289298,
+            "totalBrotliBytes": 245628,
+            "fileCount": 78,
+            "topFiles": [
+              {
+                "rel": "pixi-renderers/pixi.js",
+                "raw": 489393,
+                "gzip": 145993,
+                "brotli": 119061
+              },
+              {
+                "rel": "code0.js",
+                "raw": 54867,
+                "gzip": 14484,
+                "brotli": 12554
+              },
+              {
+                "rel": "howler-sound-manager/howler.min.js",
+                "raw": 27015,
+                "gzip": 8000,
+                "brotli": 7132
+              },
+              {
+                "rel": "runtimeobject.js",
+                "raw": 25818,
+                "gzip": 6463,
+                "brotli": 5799
+              },
+              {
+                "rel": "pixi-renderers/layer-pixi-renderer.js",
+                "raw": 20679,
+                "gzip": 5681,
+                "brotli": 5130
+              },
+              {
+                "rel": "runtimegame.js",
+                "raw": 19699,
+                "gzip": 5299,
+                "brotli": 4717
+              },
+              {
+                "rel": "libs/rbush.js",
+                "raw": 18923,
+                "gzip": 5030,
+                "brotli": 4408
+              },
+              {
+                "rel": "ResourceLoader.js",
+                "raw": 15668,
+                "gzip": 3911,
+                "brotli": 3528
+              },
+              {
+                "rel": "pixi-renderers/runtimegame-pixi-renderer.js",
+                "raw": 13412,
+                "gzip": 3962,
+                "brotli": 3465
+              },
+              {
+                "rel": "howler-sound-manager/howler-sound-manager.js",
+                "raw": 12553,
+                "gzip": 3490,
+                "brotli": 3122
+              }
+            ]
+          }
+        },
+        "planB_3D": {
+          "buildMs": 1982,
+          "deltaOverEmptyBytes": 1481334,
+          "deltaOverEmptyGzipBytes": 450010,
+          "deltaOverEmptyBrotliBytes": 382676,
+          "deltaOver2DBytes": 1385571,
+          "deltaOver2DGzipBytes": 424171,
+          "deltaOver2DBrotliBytes": 360057,
+          "rawExportBeforeClean": {
+            "totalBytes": 2384265,
+            "totalGzipBytes": 720346,
+            "totalBrotliBytes": 612472,
+            "fileCount": 93,
+            "topFiles": [
+              {
+                "rel": "pixi-renderers/three.js",
+                "raw": 737325,
+                "gzip": 184503,
+                "brotli": 148559
+              },
+              {
+                "rel": "pixi-renderers/pixi.js",
+                "raw": 489502,
+                "gzip": 146087,
+                "brotli": 119208
+              },
+              {
+                "rel": "pixi-renderers/ThreeAddons.js",
+                "raw": 359032,
+                "gzip": 154897,
+                "brotli": 144356
+              },
+              {
+                "rel": "pixi-renderers/draco/gltf/draco_decoder.wasm",
+                "raw": 192420,
+                "gzip": 63395,
+                "brotli": 48729
+              },
+              {
+                "rel": "pixi-renderers/draco/gltf/draco_wasm_wrapper.js",
+                "raw": 58456,
+                "gzip": 11667,
+                "brotli": 9994
+              },
+              {
+                "rel": "code0.js",
+                "raw": 55671,
+                "gzip": 14774,
+                "brotli": 12744
+              },
+              {
+                "rel": "howler-sound-manager/howler.min.js",
+                "raw": 27064,
+                "gzip": 8030,
+                "brotli": 7157
+              },
+              {
+                "rel": "runtimeobject.js",
+                "raw": 25859,
+                "gzip": 6491,
+                "brotli": 5823
+              },
+              {
+                "rel": "pixi-renderers/layer-pixi-renderer.js",
+                "raw": 20726,
+                "gzip": 5709,
+                "brotli": 5161
+              },
+              {
+                "rel": "runtimegame.js",
+                "raw": 19776,
+                "gzip": 5346,
+                "brotli": 4752
+              }
+            ]
+          },
+          "cleanedExport": {
+            "totalBytes": 2374548,
+            "totalGzipBytes": 713469,
+            "totalBrotliBytes": 605685,
+            "fileCount": 91,
+            "topFiles": [
+              {
+                "rel": "pixi-renderers/three.js",
+                "raw": 737344,
+                "gzip": 184514,
+                "brotli": 148540
+              },
+              {
+                "rel": "pixi-renderers/pixi.js",
+                "raw": 489393,
+                "gzip": 145993,
+                "brotli": 119061
+              },
+              {
+                "rel": "pixi-renderers/ThreeAddons.js",
+                "raw": 359032,
+                "gzip": 154897,
+                "brotli": 144356
+              },
+              {
+                "rel": "pixi-renderers/draco/gltf/draco_decoder.wasm",
+                "raw": 192420,
+                "gzip": 63395,
+                "brotli": 48729
+              },
+              {
+                "rel": "pixi-renderers/draco/gltf/draco_wasm_wrapper.js",
+                "raw": 58456,
+                "gzip": 11667,
+                "brotli": 9994
+              },
+              {
+                "rel": "code0.js",
+                "raw": 55671,
+                "gzip": 14774,
+                "brotli": 12744
+              },
+              {
+                "rel": "howler-sound-manager/howler.min.js",
+                "raw": 27015,
+                "gzip": 8000,
+                "brotli": 7132
+              },
+              {
+                "rel": "runtimeobject.js",
+                "raw": 25818,
+                "gzip": 6463,
+                "brotli": 5799
+              },
+              {
+                "rel": "pixi-renderers/layer-pixi-renderer.js",
+                "raw": 20679,
+                "gzip": 5681,
+                "brotli": 5130
+              },
+              {
+                "rel": "runtimegame.js",
+                "raw": 19699,
+                "gzip": 5299,
+                "brotli": 4717
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
